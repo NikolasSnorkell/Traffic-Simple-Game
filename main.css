@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1200px;
+    height: 700px;
+
+    border: 1px solid black;
+    background-image: url(images/fon.jpg);
+
+    position: relative;
+    overflow: hidden;
+  
+}
+
+.cars{
+    width: 140px;
+    position: absolute;
+}
+
+#myCar{
+    width: 130px;
+}
+
+#cover{
+    background: rgba(0, 0, 0, 0.548);
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+#cover span{
+    font-size: 1.5rem;
+}
+
+#info{
+    position: absolute;
+    right: 0;
+    height: 30px;
+    background:black;
+    padding: 0 10px;
+    display: flex;
+}
+#lives{
+    color: white;
+    font-size: 20px;
+}
+#time{
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+}
